@@ -13,7 +13,7 @@ import java.util.Scanner;
 @Service
 public class LagerService {
 
-    private static final String DATASET_LAGER = "D:\\SWE\\Git\\Lager.csv";
+    private static final String DATASET_LAGER = "C:/SWE/School of Hackers/bestellsystem-rest/Lager.csv";
 
     public List<Lager> getArticles() {
         Hashtable<String, Lager> lagerTable = new Hashtable<>();

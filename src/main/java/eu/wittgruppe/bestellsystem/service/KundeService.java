@@ -11,7 +11,7 @@ import java.util.Scanner;
 @Service
 public class KundeService {
 
-    private static final String DATASET_KUNDE = "D:\\SWE\\Git\\KundeN.csv";
+    private static final String DATASET_KUNDE = "C:/SWE/School of Hackers/bestellsystem-rest/Kunden.csv";
 
     public Kunde getKunde(String email) {
         Hashtable<String, Kunde> kundeTable = new Hashtable<>();
