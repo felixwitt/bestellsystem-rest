@@ -3,6 +3,7 @@ package eu.wittgruppe.bestellsystem.controller;
 import eu.wittgruppe.bestellsystem.entity.Bestellung;
 import eu.wittgruppe.bestellsystem.entity.Kunde;
 import eu.wittgruppe.bestellsystem.entity.Lager;
+import eu.wittgruppe.bestellsystem.service.BestellungService;
 import eu.wittgruppe.bestellsystem.service.KundeService;
 import eu.wittgruppe.bestellsystem.service.LagerService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,19 +23,17 @@ public class BestellsystemController {
     @Autowired
     private LagerService lagerService;
 
-    @RequestMapping("/test")
-    public String kunde() {
-        return "Angemeldet";
-    }
+    @Autowired
+    private BestellungService bestellungService;
 
     @GetMapping("/customer/")
     public Kunde kunde(@RequestParam("email") String email) {
         return kundeService.getKunde(email);
     }
 
-    @PostMapping("/customer/neworder/")
+    @PostMapping("/order/new/")
     public List<Bestellung> newOrder(@RequestBody List<Bestellung> orderList) {
-        return lagerService.newOrder(orderList);
+        return bestellungService.newOrder(orderList);
     }
 
     @GetMapping("/article/")
