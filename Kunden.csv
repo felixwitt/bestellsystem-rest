@@ -1,5 +1,7 @@
-"Kundennummer;Vorname;Nachname;Straße;Hausnummer;PLZ;Stadt;Land;Kontostand;Email"
-"123456789;Max;Mustermann;Maximiliansstraße;1;91522;Ansbach;Deutschland;100;max.mustermann@testmail.com"
-"987654321;Elrike;Musterfrau;Elrikenstraße;2;11019;Dresden;Deutschland;40;erikamusterfrau1@mail.de"
-"456789;Felix;Holfelder;Schillerstraße;7;92637;Weiden;Deutschland;40;felix.holfelder@witt-gruppe.eu"
-""
+Kundennummer;Vorname;Nachname;Straße;Hausnummer;PLZ;Stadt;Land;Kontostand;Email
+123456789;Max;Mustermann;Maximiliansstraße;1;91522;Ansbach;Deutschland;100;max.mustermann@testmail.com
+987654321;Elrike;Musterfrau;Elrikenstraße;2;11019;Dresden;Deutschland;40;erikamusterfrau1@mail.de
+456789;Felix;Holfelder;Schillerstraße;7;92637;Weiden;Deutschland;40;felix.holfelder@witt-gruppe.eu
+789456;Test;Frontend;Schillerstraße;4;92637;Weiden;Deutschland;50;frontend-test@test.de
+654321;Test;Backend;Schillerstraße;12;92637;Weiden;Deutschland;100;backend-test@test.de
+654321;Maximilian;Schreiner;Schillerstraße;8;92637;Weiden;Deutschland;1000;maximilian.schreiner@witt-gruppe.eu
